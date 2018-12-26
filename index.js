@@ -1,3 +1,7 @@
+/**
+* Created by Kuei in Kueiapp.com
+* It follows GNU General Public License
+**/
 require('webduino-js');
 require('webduino-blockly');
 var linebot = require('linebot');
