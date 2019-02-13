@@ -139,8 +139,8 @@ boardReady({
    
 });
 
-/**
- doGet 
+/** doGet 
+// It depands on your URI design
 app.get('/', function(request, response) {
   response.send('Hello World Linebot!');
 });
