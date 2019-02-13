@@ -15,6 +15,8 @@ var bot = linebot({
 
 var app = express();
 var port = process.env.PORT || 3000;
+
+// Add your linebot information your self
 var linebotParser = bot.parser();
 
 var myBoard2, led, dht, matrix, myData, relay;
@@ -121,8 +123,8 @@ function deviceIsConnected2(){
 }
 
 boardReady({
-   board: 'Smart', 
-   device: '', 
+   board: '{DEVICE_TYPE}', 
+   device: '{DEVICE_ID}', 
    transport: 'mqtt',
    multi: true
 }, function (board) {
